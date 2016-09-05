@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445D5E461D7D484800927D91 /* libpingppcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 445D5E3F1D7D484800927D91 /* libpingppcore.a */; };
+		445D5E471D7D484800927D91 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 445D5E441D7D484800927D91 /* README.md */; };
+		44A781511D79B00600987B83 /* RNDMGPingPP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 44A781501D79B00600987B83 /* RNDMGPingPP.h */; };
+		44A781531D79B00600987B83 /* RNDMGPingPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A781521D79B00600987B83 /* RNDMGPingPP.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44A7814B1D79B00600987B83 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				44A781511D79B00600987B83 /* RNDMGPingPP.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		445D5E3D1D7D484800927D91 /* Channels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Channels; sourceTree = "<group>"; };
+		445D5E3E1D7D484800927D91 /* Dependencies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dependencies; sourceTree = "<group>"; };
+		445D5E3F1D7D484800927D91 /* libpingppcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpingppcore.a; sourceTree = "<group>"; };
+		445D5E401D7D484800927D91 /* One */ = {isa = PBXFileReference; lastKnownFileType = folder; path = One; sourceTree = "<group>"; };
+		445D5E411D7D484800927D91 /* Pingpp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Pingpp.bundle; sourceTree = "<group>"; };
+		445D5E421D7D484800927D91 /* Pingpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pingpp.h; sourceTree = "<group>"; };
+		445D5E431D7D484800927D91 /* Pingpp.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pingpp.podspec; sourceTree = "<group>"; };
+		445D5E441D7D484800927D91 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		445D5E451D7D484800927D91 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		44A7814D1D79B00600987B83 /* libRNDMGPingPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNDMGPingPP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A781501D79B00600987B83 /* RNDMGPingPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDMGPingPP.h; sourceTree = "<group>"; };
+		44A781521D79B00600987B83 /* RNDMGPingPP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNDMGPingPP.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A7814A1D79B00600987B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D5E461D7D484800927D91 /* libpingppcore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445D5E351D7D47E700927D91 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				445D5E3D1D7D484800927D91 /* Channels */,
+				445D5E3E1D7D484800927D91 /* Dependencies */,
+				445D5E3F1D7D484800927D91 /* libpingppcore.a */,
+				445D5E401D7D484800927D91 /* One */,
+				445D5E411D7D484800927D91 /* Pingpp.bundle */,
+				445D5E421D7D484800927D91 /* Pingpp.h */,
+				445D5E431D7D484800927D91 /* Pingpp.podspec */,
+				445D5E441D7D484800927D91 /* README.md */,
+				445D5E451D7D484800927D91 /* VERSION */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		44A781441D79B00600987B83 = {
+			isa = PBXGroup;
+			children = (
+				445D5E351D7D47E700927D91 /* Libraries */,
+				44A7814F1D79B00600987B83 /* RNDMGPingPP */,
+				44A7814E1D79B00600987B83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44A7814E1D79B00600987B83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A7814D1D79B00600987B83 /* libRNDMGPingPP.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A7814F1D79B00600987B83 /* RNDMGPingPP */ = {
+			isa = PBXGroup;
+			children = (
+				44A781501D79B00600987B83 /* RNDMGPingPP.h */,
+				44A781521D79B00600987B83 /* RNDMGPingPP.m */,
+			);
+			path = RNDMGPingPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A7814C1D79B00600987B83 /* RNDMGPingPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A781561D79B00600987B83 /* Build configuration list for PBXNativeTarget "RNDMGPingPP" */;
+			buildPhases = (
+				44A781491D79B00600987B83 /* Sources */,
+				44A7814A1D79B00600987B83 /* Frameworks */,
+				44A7814B1D79B00600987B83 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNDMGPingPP;
+			productName = RNDMGPingPP;
+			productReference = 44A7814D1D79B00600987B83 /* libRNDMGPingPP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A781451D79B00600987B83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zix;
+				TargetAttributes = {
+					44A7814C1D79B00600987B83 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5C96EU9CXX;
+					};
+				};
+			};
+			buildConfigurationList = 44A781481D79B00600987B83 /* Build configuration list for PBXProject "RNDMGPingPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44A781441D79B00600987B83;
+			productRefGroup = 44A7814E1D79B00600987B83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A7814C1D79B00600987B83 /* RNDMGPingPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A781491D79B00600987B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D5E471D7D484800927D91 /* README.md in Sources */,
+				44A781531D79B00600987B83 /* RNDMGPingPP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44A781541D79B00600987B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44A781551D79B00600987B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A781571D79B00600987B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PingPaySDK/Channels/Alipay",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../React/**/**",
+					"$(inherited)",
+					"$(SRCROOT)/node_modules/react-native/React/**/**",
+					"$(SRCROOT)/../react-native/React/**/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PingPaySDK/Channels/Alipay",
+					"$(PROJECT_DIR)/PingPaySDK/Dependencies/Network",
+					"$(PROJECT_DIR)/PingPaySDK/Dependencies/WebView",
+					"$(PROJECT_DIR)/PingPaySDK",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44A781581D79B00600987B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PingPaySDK/Channels/Alipay",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../React/**/**",
+					"$(inherited)",
+					"$(SRCROOT)/node_modules/react-native/React/**/**",
+					"$(SRCROOT)/../react-native/React/**/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PingPaySDK/Channels/Alipay",
+					"$(PROJECT_DIR)/PingPaySDK/Dependencies/Network",
+					"$(PROJECT_DIR)/PingPaySDK/Dependencies/WebView",
+					"$(PROJECT_DIR)/PingPaySDK",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A781481D79B00600987B83 /* Build configuration list for PBXProject "RNDMGPingPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A781541D79B00600987B83 /* Debug */,
+				44A781551D79B00600987B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A781561D79B00600987B83 /* Build configuration list for PBXNativeTarget "RNDMGPingPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A781571D79B00600987B83 /* Debug */,
+				44A781581D79B00600987B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44A781451D79B00600987B83 /* Project object */;
+}
