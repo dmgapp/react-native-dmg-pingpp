@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Zix. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "RCTEventEmitter.h"
+#import "RCTBridgeModule.h"
 
-
-@interface RNDMGPingPP : NSObject
+@interface RNDMGPingPP : RCTEventEmitter <RCTBridgeModule>
 
 @end
