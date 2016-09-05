@@ -14,16 +14,6 @@
 		4D2CBBE51D7D52AD00694873 /* libpingpp+network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBD91D7D52AD00694873 /* libpingpp+network.a */; };
 		4D2CBBE61D7D52AD00694873 /* libpingpp+webview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBDC1D7D52AD00694873 /* libpingpp+webview.a */; };
 		4D2CBBE71D7D52AD00694873 /* libpingppcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBDD1D7D52AD00694873 /* libpingppcore.a */; };
-		4D2CBBEA1D7D52F800694873 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBE91D7D52F800694873 /* CFNetwork.framework */; };
-		4D2CBBEC1D7D52FF00694873 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBEB1D7D52FF00694873 /* SystemConfiguration.framework */; };
-		4D2CBBEE1D7D530600694873 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBED1D7D530600694873 /* Security.framework */; };
-		4D2CBBF01D7D530F00694873 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBEF1D7D530F00694873 /* QuartzCore.framework */; };
-		4D2CBBF21D7D531800694873 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBF11D7D531800694873 /* CoreTelephony.framework */; };
-		4D2CBBF41D7D532000694873 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBF31D7D532000694873 /* libc++.tbd */; };
-		4D2CBBF61D7D532800694873 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBF51D7D532800694873 /* libz.tbd */; };
-		4D2CBBF81D7D533100694873 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBF71D7D533100694873 /* libsqlite3.0.tbd */; };
-		4D2CBBFA1D7D533B00694873 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBF91D7D533B00694873 /* libstdc++.tbd */; };
-		4D2CBBFC1D7D534200694873 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2CBBFB1D7D534200694873 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,16 +45,6 @@
 		4D2CBBE01D7D52AD00694873 /* Pingpp.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pingpp.podspec; sourceTree = "<group>"; };
 		4D2CBBE11D7D52AD00694873 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D2CBBE21D7D52AD00694873 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
-		4D2CBBE91D7D52F800694873 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		4D2CBBEB1D7D52FF00694873 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		4D2CBBED1D7D530600694873 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		4D2CBBEF1D7D530F00694873 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		4D2CBBF11D7D531800694873 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		4D2CBBF31D7D532000694873 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		4D2CBBF51D7D532800694873 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		4D2CBBF71D7D533100694873 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		4D2CBBF91D7D533B00694873 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		4D2CBBFB1D7D534200694873 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,16 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2CBBFC1D7D534200694873 /* CoreMotion.framework in Frameworks */,
-				4D2CBBFA1D7D533B00694873 /* libstdc++.tbd in Frameworks */,
-				4D2CBBF81D7D533100694873 /* libsqlite3.0.tbd in Frameworks */,
-				4D2CBBF61D7D532800694873 /* libz.tbd in Frameworks */,
-				4D2CBBF41D7D532000694873 /* libc++.tbd in Frameworks */,
-				4D2CBBF21D7D531800694873 /* CoreTelephony.framework in Frameworks */,
-				4D2CBBF01D7D530F00694873 /* QuartzCore.framework in Frameworks */,
-				4D2CBBEE1D7D530600694873 /* Security.framework in Frameworks */,
-				4D2CBBEC1D7D52FF00694873 /* SystemConfiguration.framework in Frameworks */,
-				4D2CBBEA1D7D52F800694873 /* CFNetwork.framework in Frameworks */,
 				4D2CBBE31D7D52AD00694873 /* AlipaySDK.framework in Frameworks */,
 				4D2CBBE51D7D52AD00694873 /* libpingpp+network.a in Frameworks */,
 				4D2CBBE41D7D52AD00694873 /* libpingpp+alipay.a in Frameworks */,
@@ -96,16 +66,6 @@
 		44A781441D79B00600987B83 = {
 			isa = PBXGroup;
 			children = (
-				4D2CBBFB1D7D534200694873 /* CoreMotion.framework */,
-				4D2CBBF91D7D533B00694873 /* libstdc++.tbd */,
-				4D2CBBF71D7D533100694873 /* libsqlite3.0.tbd */,
-				4D2CBBF51D7D532800694873 /* libz.tbd */,
-				4D2CBBF31D7D532000694873 /* libc++.tbd */,
-				4D2CBBF11D7D531800694873 /* CoreTelephony.framework */,
-				4D2CBBEF1D7D530F00694873 /* QuartzCore.framework */,
-				4D2CBBED1D7D530600694873 /* Security.framework */,
-				4D2CBBEB1D7D52FF00694873 /* SystemConfiguration.framework */,
-				4D2CBBE91D7D52F800694873 /* CFNetwork.framework */,
 				4D2CBBD11D7D52AD00694873 /* PingPaySDK */,
 				44A7814F1D79B00600987B83 /* RNDMGPingPP */,
 				44A7814E1D79B00600987B83 /* Products */,
@@ -273,6 +233,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -317,6 +278,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -337,6 +299,8 @@
 		44A781571D79B00600987B83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PingPaySDK/Channels/Alipay",
@@ -346,7 +310,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(SRCROOT)/../react-native/React/**",
-					"$(SRCROOT)/../../react-native/React",
+					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../../react-native/React/**",
 				);
 				LIBRARY_SEARCH_PATHS = (
@@ -366,6 +330,8 @@
 		44A781581D79B00600987B83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PingPaySDK/Channels/Alipay",
@@ -375,7 +341,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/node_modules/react-native/React/**",
 					"$(SRCROOT)/../react-native/React/**",
-					"$(SRCROOT)/../../react-native/React",
+					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../../react-native/React/**",
 				);
 				LIBRARY_SEARCH_PATHS = (
