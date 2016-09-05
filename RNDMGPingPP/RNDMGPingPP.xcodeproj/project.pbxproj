@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		44A781511D79B00600987B83 /* RNDMGPingPP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 44A781501D79B00600987B83 /* RNDMGPingPP.h */; };
 		44A781531D79B00600987B83 /* RNDMGPingPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A781521D79B00600987B83 /* RNDMGPingPP.m */; };
+		44BF54C61D7C02EB00F0436A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54C51D7C02EB00F0436A /* CFNetwork.framework */; };
+		44BF54C81D7C02F300F0436A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54C71D7C02F300F0436A /* SystemConfiguration.framework */; };
+		44BF54CA1D7C030000F0436A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54C91D7C030000F0436A /* Security.framework */; };
+		44BF54CC1D7C030900F0436A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54CB1D7C030900F0436A /* QuartzCore.framework */; };
+		44BF54CE1D7C031500F0436A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54CD1D7C031500F0436A /* CoreTelephony.framework */; };
+		44BF54D01D7C032100F0436A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54CF1D7C032100F0436A /* libc++.tbd */; };
+		44BF54D21D7C032C00F0436A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54D11D7C032C00F0436A /* libz.tbd */; };
+		44BF54D41D7C033800F0436A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54D31D7C033800F0436A /* libsqlite3.0.tbd */; };
+		44BF54D61D7C034300F0436A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54D51D7C034300F0436A /* libstdc++.tbd */; };
+		44BF54D81D7C034D00F0436A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BF54D71D7C034D00F0436A /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +38,16 @@
 		44A7814D1D79B00600987B83 /* libRNDMGPingPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNDMGPingPP.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A781501D79B00600987B83 /* RNDMGPingPP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDMGPingPP.h; sourceTree = "<group>"; };
 		44A781521D79B00600987B83 /* RNDMGPingPP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNDMGPingPP.m; sourceTree = "<group>"; };
+		44BF54C51D7C02EB00F0436A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		44BF54C71D7C02F300F0436A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		44BF54C91D7C030000F0436A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		44BF54CB1D7C030900F0436A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		44BF54CD1D7C031500F0436A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		44BF54CF1D7C032100F0436A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		44BF54D11D7C032C00F0436A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		44BF54D31D7C033800F0436A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		44BF54D51D7C034300F0436A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		44BF54D71D7C034D00F0436A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44BF54D81D7C034D00F0436A /* CoreMotion.framework in Frameworks */,
+				44BF54D61D7C034300F0436A /* libstdc++.tbd in Frameworks */,
+				44BF54D41D7C033800F0436A /* libsqlite3.0.tbd in Frameworks */,
+				44BF54D21D7C032C00F0436A /* libz.tbd in Frameworks */,
+				44BF54D01D7C032100F0436A /* libc++.tbd in Frameworks */,
+				44BF54CE1D7C031500F0436A /* CoreTelephony.framework in Frameworks */,
+				44BF54CC1D7C030900F0436A /* QuartzCore.framework in Frameworks */,
+				44BF54CA1D7C030000F0436A /* Security.framework in Frameworks */,
+				44BF54C81D7C02F300F0436A /* SystemConfiguration.framework in Frameworks */,
+				44BF54C61D7C02EB00F0436A /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +74,7 @@
 		44A781441D79B00600987B83 = {
 			isa = PBXGroup;
 			children = (
+				44BF54D91D7C035900F0436A /* Libraries */,
 				44A7814F1D79B00600987B83 /* RNDMGPingPP */,
 				44A7814E1D79B00600987B83 /* Products */,
 			);
@@ -64,6 +95,23 @@
 				44A781521D79B00600987B83 /* RNDMGPingPP.m */,
 			);
 			path = RNDMGPingPP;
+			sourceTree = "<group>";
+		};
+		44BF54D91D7C035900F0436A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				44BF54D71D7C034D00F0436A /* CoreMotion.framework */,
+				44BF54D51D7C034300F0436A /* libstdc++.tbd */,
+				44BF54D31D7C033800F0436A /* libsqlite3.0.tbd */,
+				44BF54D11D7C032C00F0436A /* libz.tbd */,
+				44BF54CF1D7C032100F0436A /* libc++.tbd */,
+				44BF54CD1D7C031500F0436A /* CoreTelephony.framework */,
+				44BF54CB1D7C030900F0436A /* QuartzCore.framework */,
+				44BF54C91D7C030000F0436A /* Security.framework */,
+				44BF54C71D7C02F300F0436A /* SystemConfiguration.framework */,
+				44BF54C51D7C02EB00F0436A /* CFNetwork.framework */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +199,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -195,6 +244,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -215,6 +265,7 @@
 		44A781571D79B00600987B83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../React/**/**",
 					"$(inherited)",
@@ -232,6 +283,7 @@
 		44A781581D79B00600987B83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../React/**/**",
 					"$(inherited)",
@@ -265,6 +317,7 @@
 				44A781581D79B00600987B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
