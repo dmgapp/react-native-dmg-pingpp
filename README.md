@@ -3,7 +3,7 @@
 #安装
     npm i -S react-native-dmg-pingpp
     
-    rnpm link react-native-dmg-pingpp
+    react-native link react-native-dmg-pingpp
 
 #iOS
 ###配置
