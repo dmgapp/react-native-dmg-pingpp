@@ -226,6 +226,7 @@
 					"$(SRCROOT)/../react-native/React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/Pingpp/lib",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -255,6 +256,7 @@
 					"$(SRCROOT)/../react-native/React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/Pingpp/lib",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
