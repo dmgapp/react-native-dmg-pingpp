@@ -1,13 +1,15 @@
 #react-native-dmg-pingpp
 
 #安装
-    npm install -save https://github.com/DMGroup/react-native-dmg-pingpp
+    npm i -S react-native-dmg-pingpp
     
     rnpm link react-native-dmg-pingpp
 
 #iOS
 ###配置
 - xcode打开iOS项目,使用pod安装Pingpp iOS SDK并进行相关配置。详见https://www.pingxx.com/docs/client/sdk/ios
+- 根据以上配置完后,用xcode中TARGETS栏,在 Info -> URL Types -> URL Schemes里配置的值
+,替换RNDMGPingPP.xcodeproj -> RNDMGPingPP.m中的static NSString *gScheme = @"此处填写URL Schemes里配置的值"。
 
 ###使用
     import { pay } from 'react-native-dmg-pingpp';

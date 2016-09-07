@@ -11,6 +11,8 @@
 #import "RCTBridge.h"
 #import "RCTEventDispatcher.h"
 
+static NSString *gScheme = @"smartAlipay";
+
 @implementation RNDMGPingPP
 
 RCT_EXPORT_MODULE();
@@ -23,8 +25,6 @@ RCT_EXPORT_MODULE();
     self = [super init];
     
     if (self) {
-        //    [self _autoGetScheme];
-        
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleOpenURL:) name:@"RCTOpenURLNotification" object:nil];
     }
     
@@ -54,12 +54,10 @@ RCT_EXPORT_METHOD(pay:(NSString *)charge) {
 #endif
     
     [Pingpp createPayment:charge
-             appURLScheme:@"smartAlipay"
+             appURLScheme:gScheme
            withCompletion:^(NSString *result, PingppError *error) {
                [self onResult:result erorr:error];
            }];
-    
-    
 }
 
 - (void)onResult:(NSString *)result erorr:(PingppError *)error {
@@ -73,26 +71,5 @@ RCT_EXPORT_METHOD(pay:(NSString *)charge) {
     
     [self sendEventWithName:@"Pingpp_Resp" body:body];
 }
-
-//- (void)_autoGetScheme {
-//  if (gScheme.length > 0) {
-//    return;
-//  }
-//
-//  NSArray *list = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"CFBundleURLTypes"];
-//
-//  for (NSDictionary *item in list) {
-//    NSString *name = item[@"CFBundleURLName"];
-//
-//    if ([name isEqualToString:@"smartAlipay"]) {
-//      NSArray *schemes = item[@"CFBundleURLSchemes"];
-//
-//      if (schemes.count > 0) {
-//        gScheme = schemes[0];
-//        break;
-//      }
-//    }
-//  }
-//}
 
 @end
