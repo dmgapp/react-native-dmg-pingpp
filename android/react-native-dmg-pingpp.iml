@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":RnDmgPingpp" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="react_native_smart" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="react-native-dmg-pingpp" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="react_native_smart" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":RnDmgPingpp" />
+        <option name="GRADLE_PROJECT_PATH" value="react-native-dmg-pingpp" />
       </configuration>
     </facet>
     <facet type="android" name="Android">
