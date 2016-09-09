@@ -11,7 +11,7 @@
 #import "RCTBridge.h"
 #import "RCTEventDispatcher.h"
 
-static NSString *gScheme = @"smartAlipay";
+static NSString *gScheme = @"yourURLScheme";
 
 @implementation RNDMGPingPP
 
