@@ -21,9 +21,6 @@
     
     2.npm run configureDmgPingpp <yourURLScheme>中的yourURLScheme,就是配置文档中URL Types下添加的URL Schemes。
 
-- 根据以上配置完后,用xcode中TARGETS栏,在 Info -> URL Types -> URL Schemes里配置的值
-,替换RNDMGPingPP.xcodeproj -> RNDMGPingPP.m中的static NSString *gScheme = @"此处填写URL Schemes里配置的值"。
-
 ###使用
     import { pay } from 'react-native-dmg-pingpp';
     
