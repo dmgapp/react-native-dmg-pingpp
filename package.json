@@ -4,7 +4,7 @@
   "description": "PingPP for React-Native",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node postInstall.js"
+    "postinstall": "node postInstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
