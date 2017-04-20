@@ -8,8 +8,8 @@
 
 #import "RNDMGPingPP.h"
 #import "Pingpp.h"
-#import "RCTBridge.h"
-#import "RCTEventDispatcher.h"
+#import <React/RCTBridge.h>
+#import <React/RCTEventDispatcher.h>
 
 static NSString *gScheme = @"yourURLScheme";
 

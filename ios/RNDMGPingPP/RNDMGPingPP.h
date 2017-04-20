@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Zix. All rights reserved.
 //
 
-#import "RCTEventEmitter.h"
-#import "RCTBridgeModule.h"
+#import <React/RCTEventEmitter.h>
+#import <React/RCTBridgeModule.h>
 
 @interface RNDMGPingPP : RCTEventEmitter <RCTBridgeModule>
 

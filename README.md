@@ -1,5 +1,7 @@
 #react-native-dmg-pingpp
 
+**已经升级到支持 React-Native 0.40以上**
+
 #安装
     npm i -S react-native-dmg-pingpp
     
@@ -47,3 +49,5 @@
 
  
 #Android
+
+在 项目 .react-native-dmg-pingpp/android/libs/ 有全部的支付方式需要的包，请保留需要的
