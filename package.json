@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DMGroup/react-native-dmg-pingpp.git"
+    "url": "git+git@github.com:dmgapp/react-native-dmg-pingpp.git"
   },
   "keywords": [
     "PingPP",
@@ -19,7 +19,7 @@
   "author": "Dark Matter Group",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DMGroup/react-native-dmg-pingpp/issues"
+    "url": "https://github.com/dmgapp/react-native-dmg-pingpp/issues"
   },
-  "homepage": "https://github.com/DMGroup/react-native-dmg-pingpp#readme"
+  "homepage": "https://github.com/dmgapp/react-native-dmg-pingpp"
 }
