@@ -1,4 +1,4 @@
-#react-native-dmg-pingpp
+# react-native-dmg-pingpp
 
 ### 0.1.2 
 - 已经修复 android编译失败bug
