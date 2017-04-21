@@ -49,8 +49,8 @@ public class RnDmgPingppModule extends  ReactContextBaseJavaModule implements Ac
     }
 
     @Override
-    public void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
-        if (requestCode == REQUEST_CODE_PAYMENT && resultCode == Activity.RESULT_OK) {
+    public void onActivityResult(Activity activity , final int requestCode, final int resultCode, final Intent data) {
+        if (requestCode == REQUEST_CODE_PAYMENT && resultCode == activity.RESULT_OK) {
             this.handleResultData(data);
         }else{
                      RCTNativeAppEventEmitter emitter = getReactApplicationContext().getJSModule(RCTNativeAppEventEmitter.class);

@@ -1,6 +1,7 @@
 #react-native-dmg-pingpp
 
-**已经升级到支持 React-Native 0.40以上**
+**已经升级到支持 React-Native 0.40及以上**
+
 
 #安装
     npm i -S react-native-dmg-pingpp
