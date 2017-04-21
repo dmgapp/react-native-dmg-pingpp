@@ -1,9 +1,16 @@
 # react-native-dmg-pingpp
 
+## 官方
+
+官方版react-native组件已经发布 [查看官方版](https://coding.net/u/pingplusplus/p/pingpp-react-native/git)
+
+### 0.1.3 
+- 修改README.md
+
 ### 0.1.2 
 - 已经修复 android编译失败bug
 
-## 0.1.1
+### 0.1.1
 - 升级并支持 React-Native 0.40及以上
 
 
