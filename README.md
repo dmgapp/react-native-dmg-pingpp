@@ -1,7 +1,7 @@
 #react-native-dmg-pingpp
 
 **已经升级到支持 React-Native 0.40及以上**
-
+0.1.2 已经修复 android编译失败bug
 
 #安装
     npm i -S react-native-dmg-pingpp
