@@ -3,6 +3,8 @@
 ## 官方
 
 官方版react-native组件已经发布 [查看官方版](https://coding.net/u/pingplusplus/p/pingpp-react-native/git)
+### 0.1.4
+- 删除android/libs 改用 maven
 
 ### 0.1.3 
 - 修改README.md
