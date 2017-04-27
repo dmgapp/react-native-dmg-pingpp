@@ -2,18 +2,10 @@
 
 ## 官方
 
-官方版react-native组件已经发布 [查看官方版](https://coding.net/u/pingplusplus/p/pingpp-react-native/git)
+官方版react-native组件已经发布 [查看官方版](https://coding.net/u/pingplusplus/p/pingpp-react-native/git)，官方包中ios存在问题
+
 ### 0.1.4
-- 删除android/libs 改用 maven
-
-### 0.1.3 
-- 修改README.md
-
-### 0.1.2 
-- 已经修复 android编译失败bug
-
-### 0.1.1
-- 升级并支持 React-Native 0.40及以上
+- 删除android/libs 改用 maven 管理pingpp依赖包
 
 
 # 安装
@@ -44,7 +36,54 @@
  
 ## Android
 
-在项目 .react-native-dmg-pingpp/android/libs/ 有全部的支付方式需要的包，请保留需要的
+在 ./android/app/src/main/AndroidManifest.xml 中加入
+
+```xml
+
+<!-- Ping++ SDK -->
+<activity
+    android:name="com.pingplusplus.android.PaymentActivity"
+    android:configChanges="orientation|screenSize"
+    android:launchMode="singleTop"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+    
+    <!--使用QQ钱包时，需要填写-->
+    <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <!-- 填写规则:qwallet + APP_ID -->
+        <data android:scheme="qwalletXXXXXXXX"/>
+    </intent-filter>
+
+</activity>
+
+<!-- 微信支付 sdk ，也是 Ping++ sdk 调用入口 -->
+<activity-alias
+    android:name=".wxapi.WXPayEntryActivity"
+    android:exported="true"
+    android:targetActivity="com.pingplusplus.android.PaymentActivity" />
+<!-- 支付宝 sdk -->
+<activity
+    android:name="com.alipay.sdk.app.H5PayActivity"
+    android:configChanges="orientation|keyboardHidden|navigation"
+    android:exported="false"
+    android:screenOrientation="behind" >
+</activity>
+<activity
+    android:name="com.alipay.sdk.auth.AuthActivity"
+    android:configChanges="orientation|keyboardHidden|navigation"
+    android:exported="false"
+    android:screenOrientation="behind" >
+</activity>
+
+<!-- 银联支付 sdk -->
+<activity
+    android:name="com.unionpay.uppay.PayActivity"
+    android:configChanges="orientation|keyboardHidden|navigation|screenSize" />
+
+```
 
 
 # 使用
