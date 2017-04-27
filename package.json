@@ -1,6 +1,6 @@
 {
   "name": "react-native-dmg-pingpp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "PingPP for React-Native",
   "main": "index.js",
   "scripts": {
