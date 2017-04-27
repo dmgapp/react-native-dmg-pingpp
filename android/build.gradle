@@ -27,3 +27,4 @@ dependencies {
     compile 'com.pingxx:pingpp-wxpay:2.1.9' //使用微信支付时添加
     compile 'com.pingxx:pingpp-bfb-sdk:2.1.9' // 使用百付宝时添加
     compile 'com.pingxx:pingpp-qpay:2.1.9' //使用QQ钱包时添加
+}
