@@ -4,7 +4,7 @@
 
 官方版react-native组件已经发布 [查看官方版](https://coding.net/u/pingplusplus/p/pingpp-react-native/git)，官方包中ios存在问题
 
-### 0.1.4
+### 0.1.6
 - 删除android/libs 改用 maven 管理pingpp依赖包
 
 
