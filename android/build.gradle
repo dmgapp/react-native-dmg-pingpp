@@ -20,6 +20,10 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    compile "com.facebook.react:react-native:+"  // From node_modules
-}
+    compile 'com.facebook.react:react-native:+'
+    compile 'com.pingxx:pingpp-core:2.1.9' //必须添加
+    compile 'com.pingxx:pingpp-alipay:2.1.9' //使用支付宝时添加
+    compile 'com.pingxx:pingpp-upacp:2.1.9' //使用银联支付时添加
+    compile 'com.pingxx:pingpp-wxpay:2.1.9' //使用微信支付时添加
+    compile 'com.pingxx:pingpp-bfb-sdk:2.1.9' // 使用百付宝时添加
+    compile 'com.pingxx:pingpp-qpay:2.1.9' //使用QQ钱包时添加

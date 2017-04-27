@@ -1,51 +1,33 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"  package="com.dmgapp.rnpingpp">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.dmgapp.rnpingpp">
 
-    <!-- 通用权限 -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-sdk
+    android:minSdkVersion="11"
+    android:targetSdkVersion="23"/>
 
-    <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="23" />
+  <!-- 通用权限 -->
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.NFC"/>
+  <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission-sdk-23 android:name="android.permission.NFC"/>
 
+  <!-- 百度支付需要的权限 -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+  <uses-permission android:name="android.permission.READ_SMS"/>
 
-    <application
-      android:allowBackup="true">
+  <application android:allowBackup="true">
 
-        <!-- Ping++ SDK 注册 -->
-        <activity
-            android:name="com.pingplusplus.android.PaymentActivity"
-            android:configChanges="orientation|screenSize"
-            android:launchMode="singleTop"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <!-- 微信支付注册 -->
-          <!--<activity-alias-->
-            <!--android:name="${applicationId}.wxapi.WXPayEntryActivity"-->
-            <!--android:exported="true"-->
-            <!--android:launchMode="singleTop"-->
-            <!--android:targetActivity="com.pingplusplus.android.PaymentActivity" />-->
+    <activity
+      android:name="com.pingplusplus.react.PingppActivity"
+      android:configChanges="orientation|screenSize"
+      android:launchMode="singleTop"
+      android:theme="@android:style/Theme.Translucent.NoTitleBar">
+    </activity>
 
-        <!--<activity-alias-->
-            <!--android:name=".wxapi.WXPayEntryActivity"-->
-            <!--android:exported="true"-->
-            <!--android:launchMode="singleTop"-->
-            <!--android:targetActivity="com.pingplusplus.android.PaymentActivity" />-->
-        <!-- 支付宝注册 -->
-        <activity
-            android:name="com.alipay.sdk.app.H5PayActivity"
-            android:configChanges="orientation|keyboardHidden|navigation"
-            android:exported="false"
-            android:screenOrientation="behind" />
-
-        <activity
-            android:name="com.alipay.sdk.auth.AuthActivity"
-            android:configChanges="orientation|keyboardHidden|navigation"
-            android:exported="false"
-            android:screenOrientation="behind" />
-
-    </application>
+  </application>
 
 </manifest>

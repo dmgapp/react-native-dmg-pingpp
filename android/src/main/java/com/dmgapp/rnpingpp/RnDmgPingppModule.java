@@ -52,13 +52,12 @@ public class RnDmgPingppModule extends  ReactContextBaseJavaModule implements Ac
     public void onActivityResult(Activity activity , final int requestCode, final int resultCode, final Intent data) {
         if (requestCode == REQUEST_CODE_PAYMENT && resultCode == activity.RESULT_OK) {
             this.handleResultData(data);
-        }else{
-                     RCTNativeAppEventEmitter emitter = getReactApplicationContext().getJSModule(RCTNativeAppEventEmitter.class);
-                     WritableMap map = Arguments.createMap();
-                     map.putString("errMsg", "支付宝返回错误");
-                     emitter.emit("Pingpp_Resp", map);
-
-                 }
+        } else {
+            RCTNativeAppEventEmitter emitter = getReactApplicationContext().getJSModule(RCTNativeAppEventEmitter.class);
+            WritableMap map = Arguments.createMap();
+            map.putString("errMsg", "返回错误");
+            emitter.emit("Pingpp_Resp", map);
+        }
     }
 
     private void handleResultData(Intent data) {
